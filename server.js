@@ -1,7 +1,7 @@
 var http = require('http');
-comsole.log('Hello');
+console.log('Hello');
 var server = http.createServer(function(req, res){
-    res.writeHead(200, {'content-type'})
+    res.writeHead(200, {'content-type': 'text/html'})
     res.end('<h1>HELLO KITTY WORLD</h1>');
 });
 
